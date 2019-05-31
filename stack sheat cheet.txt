@@ -1,8 +1,20 @@
-stack new mySed
-
-stack setup
-
+stack new Name
 stack build
-stack exec mySed-exe
+stack exec Name-exe
 
-stack install regex-compat
+
+stack ghc[i] # ? runghc
+stack setup # установка версии нужного компилятора 
+stack install regex-compat #instl pkg
+
+
+$ cd new_hs_project
+$ stack init
+
+
+stack new helloworld new-template
+
+
+stack test
+
+* Депендесисы добавлять в package.yaml
