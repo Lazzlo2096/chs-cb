@@ -1,0 +1,8 @@
+stack new mySed
+
+stack setup
+
+stack build
+stack exec mySed-exe
+
+stack install regex-compat
