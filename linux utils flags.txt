@@ -1,0 +1,16 @@
+#Также смотри свои Алиасы...
+
+#Утилита dpkg
+#Она для Unix-подобные, POSIX
+dpkg -S <something> #Какой-то поиск
+dpkg -i <pkg_path> #установить .deb пакет
+dpkg -l [маска] #Вывод списка установленных пакетов
+dpkg -r <имя_пакета> #Для удаления установленного пакета
+
+
+
+###BusyBox
+# Это - ash, bash, sh, sed, awk, cat, cp, ... - https://en.wikipedia.org/wiki/BusyBox#Commands
+# http://spblinux.de/2.0/doc/commands.html
+# https://busybox.net/downloads/BusyBox.html - ITS OFFICIAL!!!
+# Но похоже что не - cd, ... ? Его нет даже в официальном списке бизибокса. И ещё странно - "whereis cd"
