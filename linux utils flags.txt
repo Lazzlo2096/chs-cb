@@ -14,3 +14,18 @@ dpkg -r <имя_пакета> #Для удаления установленно�
 # http://spblinux.de/2.0/doc/commands.html
 # https://busybox.net/downloads/BusyBox.html - ITS OFFICIAL!!!
 # Но похоже что не - cd, ... ? Его нет даже в официальном списке бизибокса. И ещё странно - "whereis cd"
+
+------------------------------------------------
+Why the "cd" command is not part of the BusyBox? And How I get it on my PC?
+https://unix.stackexchange.com/questions/ask
+
+Official [list of commands supplied by BusyBox](https://busybox.net/downloads/BusyBox.html) - and there is no "cd".
+
+"cd" comes to my computer with Linux kernel? What if I will install only linux kernel? Will I get "cd" command in this way? (Or even terminal itself?)
+
+Can I del "cd" util (or what is that???).
+
+How many more such commands, which is no in 'software suite' of shell utils, that I can use?
+-----------------------------------------------
+cd shell built-in command
+https://www.quora.com/Unix-Why-is-cd-a-built-in-command-in-the-shell-and-not-an-executable-program-like-the-command-ls
